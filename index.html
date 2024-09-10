@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="ludo-page">
+        <div class="border">
+            <div class="leftbox">
+                <div class="leftborder">
+                  <div class="left-top-box" id="left-top-box">
+                    <div class="red-box"></div>
+                    <div class="red-box"></div>
+                    <div class="red-box"></div>
+                    <div class="red-box"></div>
+                  </div>
+                  <div class="left-center-box">
+                    <div class="top-path">
+                        <div class="path-box"></div>
+                        <div class="path-box redbg"><i class="fa-solid fa-star"></i></div>
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                    </div>
+                    <div class="center-path">
+                        <div class="path-box"></div>
+                        <div class="path-box redbg"></div>
+                        <div class="path-box redbg"></div>
+                        <div class="path-box redbg"></div>
+                        <div class="path-box redbg"></div>
+                        <div class="path-box redbg"></div>
+                    </div>
+                    <div class="bottom-path">
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                        <div class="path-box yellowbg"><i class="fa-solid fa-star"></i></div>
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                        <div class="path-box"></div>
+                    </div>
+                  </div>
+                  <div class="left-bottom-box" id="left-bottom-box">
+                    <div class="yellow-box"></div>
+                    <div class="yellow-box"></div>
+                    <div class="yellow-box"></div>
+                    <div class="yellow-box"></div>
+                  </div>
+                </div>
+            </div>
+            <div class="centerbox">
+                <div class="centerborder">
+                    <div class="center-top-box">
+                        <div class="top-path-vertical">
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver redbg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                        </div>
+                        <div class="center-path-vertical">
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver greenbg"></div>
+                            <div class="path-box-ver greenbg"></div>
+                            <div class="path-box-ver greenbg"></div>
+                            <div class="path-box-ver greenbg"></div>
+                            <div class="path-box-ver greenbg"></div>
+                        </div>
+                        <div class="bottom-path-vertical">
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver greenbg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                        </div>
+                    </div>
+                    <div class="center-center-box"></div>
+                    <div class="center-bottom-box">
+                        <div class="top-path-vertical">
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver yellowbg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box-ver"></div>
+                        </div>
+                        <div class="center-path-vertical">
+                            <div class="path-box-ver yellowbg"></div>
+                            <div class="path-box-ver yellowbg"></div>
+                            <div class="path-box-ver yellowbg"></div>
+                            <div class="path-box-ver yellowbg"></div>
+                            <div class="path-box-ver yellowbg"></div>
+                            <div class="path-box-ver"></div>
+                        </div>
+                        <div class="bottom-path-vertical">
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver bluebg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box-ver"></div>
+                            <div class="path-box-ver"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="rightborder">
+                    <div class="right-top-box" id="right-top-box">
+                        <div class="green-box"></div>
+                        <div class="green-box"></div>
+                        <div class="green-box"></div>
+                        <div class="green-box"></div>
+                    </div>
+                    <div class="right-center-box">
+                        <div class="top-path">
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                            <div class="path-box greenbg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                        </div>
+                        <div class="center-path">
+                            <div class="path-box bluebg"></div>
+                            <div class="path-box bluebg"></div>
+                            <div class="path-box bluebg"></div>
+                            <div class="path-box bluebg"></div>
+                            <div class="path-box bluebg"></div>
+                            <div class="path-box"></div>
+                        </div>
+                        <div class="bottom-path">
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                            <div class="path-box"></div>
+                            <div class="path-box bluebg"><i class="fa-solid fa-star"></i></div>
+                            <div class="path-box"></div>
+                        </div>
+                    </div>
+                    <div class="right-bottom-box" id="right-bottom-box">
+                        <div class="blue-box"></div>
+                        <div class="blue-box"></div>
+                        <div class="blue-box"></div>
+                        <div class="blue-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
